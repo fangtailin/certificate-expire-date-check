@@ -16,4 +16,5 @@ for x in f:
     daysToExpiration = (certExpires - datetime.datetime.now()).days
     print(daysToExpiration)
 
-yagmail.SMTP(me, password).send(to, '请注意证书的更新！', '以下是证书到期时间：' + certExpires +hostname)
+yagmail.SMTP(me, password).send(to, 'Pls pay attention to the expiration date the certificate', 'this is the expiration date：' + certExpires + hostname)
+# modify arguments of the above line to send emails 
