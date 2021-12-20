@@ -17,4 +17,4 @@ for x in f:
     print(daysToExpiration)
 
 yagmail.SMTP(me, password).send(to, 'Pls pay attention to the expiration date the certificate', 'this is the expiration date：' + certExpires + hostname)
-# modify arguments of the above line to send emails 
+# You can define a condition(how many days in advance) to inform customers via email. 
