@@ -1,1 +1,1 @@
-# custom-certificate-expire-check
+# custom-certificate-expiration-date-check
